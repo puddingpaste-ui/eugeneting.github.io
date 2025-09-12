@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eugene Ting | Engineering Leader</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; color: #222; background: #f7f9fc; }
+    header { 
+      background: url('https://images.unsplash.com/photo-1581090700227-3d8f2e4f1eaa?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat; 
+      color: white; padding: 120px 20px; text-align: center; 
+    }
+    header h1 { margin: 0; font-size: 3em; font-weight: 800; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
+    header p { font-size: 1.2em; max-width: 700px; margin: 10px auto; text-shadow: 1px 1px 6px rgba(0,0,0,0.4);}
+    .btn { background: white; color: #1a73e8; padding: 12px 24px; margin: 10px; display: inline-block; border-radius: 10px; text-decoration: none; font-weight: 600; transition: transform 0.2s;}
+    .btn:hover { transform: scale(1.05);}
+    section { padding: 80px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 2em; margin-bottom: 20px; color: #1a73e8; text-align: center; }
+    .skills span { background: #e3f2fd; margin: 5px; padding: 10px 16px; border-radius: 8px; display: inline-block; font-size: 0.95em; }
+    .job-card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); margin-bottom: 30px; transition: transform 0.2s;}
+    .job-card:hover { transform: translateY(-5px); }
+    .job-card img { width:100%; border-radius:12px; margin-bottom:12px; }
+    .patents li { margin-bottom: 8px; }
+    footer { text-align: center; padding: 40px; background: #0f172a; color: white; }
+    footer a { color: #60a5fa; text-decoration: none; margin: 0 10px; }
+    .hero-img { width: 120px; border-radius: 50%; border: 4px solid white; margin-top: 20px; }
+    .highlight { color: #1a73e8; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <!-- HERO -->
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Eugene Ting Headshot" class="hero-img">
+    <h1>Eugene Ting</h1>
+    <p>Engineering Leader | Driving <span class="highlight">Innovative Satellite, Automotive & Consumer Electronics Systems</span> from Concept to Launch</p>
+    <a class="btn" href="mailto:eugeneting88@gmail.com">Email Me</a>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="summary">
+    <h2>About Me</h2>
+    <p>I am an Engineering leader with <span class="highlight">10+ years of delivering cutting-edge systems</span> in aerospace, automotive, and consumer electronics. I specialize in <span class="highlight">interconnect architecture, module packaging, and system integration</span>. Holder of multiple patents, I thrive on turning complex challenges into scalable, production-ready solutions that have launched satellites, scaled EV systems, and optimized consumer devices.</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" style="background: linear-gradient(135deg,#e0f7fa,#f1f8e9); padding:60px 20px;">
+    <h2>Core Skills</h2>
+    <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
+      <span>System & Product Engineering</span>
+      <span>Wire Harness & Interconnect</span>
+      <span>Module Packaging</span>
+      <span>System Integration</span>
+      <span>Compliance (USCAR, SAE, ISO)</span>
+      <span>CAD: NX, SolidWorks, AutoCAD</span>
+      <span>Simulation: COMSOL</span>
+      <span>Lean Six Sigma</span>
+      <span>Program Leadership</span>
+      <span>Patents & Innovation</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+      <div class="job-card" style="flex:1; min-width:280px;">
+        <img src="https://images.unsplash.com/photo-1581090700227-3d8f2e4f1eaa?crop=entropy&cs=tinysrgb&fit=max&h=150" alt="Satellite">
+        <h3>E-Space | Electro-Mechanical Engineering Lead <small>(May 2024–Now)</small></h3>
+        <p>Delivered <span class="highlight">2 satellites from ground-up design to successful launch</span>. Led interconnect system development, module packaging, and scalable assembly processes.</p>
+      </div>
+      <div class="job-card" style="flex:1; min-width:280px;">
+        <img src="https://images.unsplash.com/photo-1581091215360-2a0aefb620b3?crop=entropy&cs=tinysrgb&fit=max&h=150" alt="Mini LED Production">
+        <h3>Apple Inc | System Hardware Engineer L5 <small>(2018–2024)</small></h3>
+        <p>Spearheaded complex system integration projects and scaled Mini-LED BLU production from PoC to mass production. Developed hundreds of wire harnesses, test benches, and cross-functional solutions.</p>
+      </div>
+      <div class="job-card" style="flex:1; min-width:280px;">
+        <img src="https://images.unsplash.com/photo-1611685085193-2f719b39105b?crop=entropy&cs=tinysrgb&fit=max&h=150" alt="EV Wiring">
+        <h3>BizLink | Engineering Manager (Tesla EV) <small>(2014–2018)</small></h3>
+        <p>Led EV harness programs, managing $35M revenue accounts and validating production lines globally.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATENTS -->
+  <section id="patents" style="background:url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); padding:60px 20px;">
+    <h2>Patents & Innovations</h2>
+    <ul style="columns:2; list-style:none; padding:0; column-gap:40px;">
+      <li>Novel Scalable Radiation Shielding Design - USPTO 2025 (Pending)</li>
+      <li>CPV Connector Design - USPTO 2025 (Pending)</li>
+      <li>Passive Separation Connector - USPTO 2024 (Pending)</li>
+      <li>New Coaxial Cable Construction - USPTO 2024 (Pending)</li>
+      <li>New Cable Design for Enhanced Thermal Performance - USPTO 2024 (Pending)</li>
+      <li>Electrical Connection Monitoring Using Cable Shielding - USPTO 2023</li>
+      <li>Spiral Wound Conductor for High Current Applications - USPTO 2022</li>
+      <li>Thermal Fuse Sleeving - USPTO 2022</li>
+      <li>Smart Stove Detector - TWPTO 2021</li>
+    </ul>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education & Certifications</h2>
+    <p><b>University of Florida</b> – Master of Materials Science and Engineering</p>
+    <p><b>National Tsing-Hua University</b> – Bachelor of Materials Science and Engineering</p>
+    <p>PMP Certification | Six Sigma Certifications</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Eugene Ting</p>
+    <p>
+      <a href="mailto:eugeneting88@gmail.com">Email</a> |
+      <a href="https://www.linkedin.com/">LinkedIn</a> |
+      <a href="https://github.com/">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
